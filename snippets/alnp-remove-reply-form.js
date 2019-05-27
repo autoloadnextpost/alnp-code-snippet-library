@@ -17,7 +17,7 @@ jQuery( document ).ready( function() {
 	}
 });
 
-jQuery('body').on( 'alnp-post-loaded', function( e, post_title, post_url, post_ID, post_count ) {
+jQuery('body').on( 'alnp-post-loaded', function( e ) {
 	// Remove reply form if comments are removed.
 	if ( alnp_remove_comments === 'yes' ) {
 		jQuery( '.comment-respond' ).remove();

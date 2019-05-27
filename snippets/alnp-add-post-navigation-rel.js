@@ -10,6 +10,6 @@ jQuery( document ).ready( function() {
 });
 
 // Runs when triggered.
-jQuery('body').on( 'alnp-post-loaded', function( e, post_title, post_url, post_ID, post_count ) {
+jQuery('body').on( 'alnp-post-loaded', function( e ) {
 	jQuery( 'div.previous-post' ).find( 'a' ).attr( 'rel', 'prev' );
 });

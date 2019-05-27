@@ -15,7 +15,7 @@ jQuery( document ).ready( function() {
 	}
 });
 
-jQuery('body').on( 'alnp-post-loaded', function( e, post_title, post_url, post_ID, post_count ) {
+jQuery('body').on( 'alnp-post-loaded', function( e ) {
 	// Remove disqus thread.
 	if ( alnp_remove_comments === 'yes' ) {
 		jQuery( '#disqus_thread' ).remove();
